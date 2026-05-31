@@ -1,0 +1,5 @@
+node_modules
+studymatch/node_modules
+studymatch/backend/node_modules
+.env
+dist
