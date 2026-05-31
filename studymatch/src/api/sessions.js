@@ -1,4 +1,4 @@
-const BASE = '/api/sessions'
+const BASE = 'https://studymatch-nrr1.onrender.com/api/sessions'
 
 export async function fetchSessions(search = '') {
   const params = search ? `?search=${encodeURIComponent(search)}` : ''
